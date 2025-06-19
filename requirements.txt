@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+pandas
+numpy
+matplotlib
+ipykernel
+pydot
+graphviz
