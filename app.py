@@ -1,16 +1,17 @@
 import numpy as np
 import pandas as pd
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import sequence
-from tensorflow.keras.datasets import imdb
+import tensorflow
+# from tensorflow.keras.models import load_model
+# from tensorflow.keras.preprocessing import sequence
+# from tensorflow.keras.datasets import imdb
 
 ## Load the IMDB word index.
-word_index=imdb.get_word_index()
+word_index=tensorflow.keras.datasets.imdb.get_word_index()
 reverse_word_index={value: key for key, value  in word_index.items()}
 
 
 # Load the pre-trained model with ReLU activation
-model=load_model('simple_rnn_model.h5')
+model=tensorflow.keras.models.load_model('simple_rnn_model.h5')
 
 
 # Step 2: Helper function
@@ -22,7 +23,7 @@ def decoded_review(encoded_review):
 def preproces_text(text):
     words=text.lower().split()
     encoded_review=[word_index.get(word, 2)+3 for word in words]
-    padding_review=sequence.pad_sequences([encoded_review], maxlen=500)
+    padding_review=tensorflow.keras.preprocessing.sequence.pad_sequences([encoded_review], maxlen=500)
     return padding_review
 
 
