@@ -1,10 +1,10 @@
-# 🔄 Recurrent Neural Network (RNN) for Sequence Modeling  
+# Recurrent Neural Network (RNN) for Sequence Modeling  
 
 This repository implements a **Recurrent Neural Network (RNN)** — a type of neural network architecture designed for handling **sequential data** like text, time series, and speech.  
 
 ---
 
-## 📌 What is an RNN?
+## What is an RNN?
 
 A **Recurrent Neural Network (RNN)** is a neural architecture where connections between nodes form a directed graph along a temporal sequence. This allows the model to exhibit **temporal dynamic behavior**, processing input sequences one element at a time while maintaining a hidden state that captures information about previous elements.  
 
