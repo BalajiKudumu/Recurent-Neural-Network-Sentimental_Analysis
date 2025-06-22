@@ -34,3 +34,11 @@ Where:
 - Speech Recognition
 - Music Generation
 - Video Frame Prediction
+
+## Limitations
+- Vanishing/exploding gradient problem → hard to learn long-range dependencies
+- Slow to train compared to feedforward networks
+
+## Solution: Use advanced RNN variants like:
+- LSTM (Long Short-Term Memory)
+- GRU (Gated Recurrent Unit)
