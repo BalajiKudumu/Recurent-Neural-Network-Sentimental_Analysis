@@ -27,6 +27,14 @@ Where:
 - \( \phi \): Output activation (softmax for classification)
 
 ---
+## RNN Unrolling (concept)
+```text
+x1 → [ h1 ] → y1
+       ↓
+x2 → [ h2 ] → y2
+       ↓
+x3 → [ h3 ] → y3
+```
 
 ## Applications of RNN
 - Natural Language Processing (NLP) → next word prediction, machine translation
