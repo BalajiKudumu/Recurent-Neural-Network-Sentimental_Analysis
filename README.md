@@ -28,4 +28,9 @@ Where:
 
 ---
 
-
+## Applications of RNN
+- Natural Language Processing (NLP) → next word prediction, machine translation
+- Time Series Forecasting → stock prices, sensor data
+- Speech Recognition
+- Music Generation
+- Video Frame Prediction
