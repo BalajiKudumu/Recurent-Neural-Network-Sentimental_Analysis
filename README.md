@@ -14,13 +14,8 @@ A **Recurrent Neural Network (RNN)** is a neural architecture where connections 
 
 An RNN processes sequences by iterating through the elements and updating its hidden state:  
 
-\[
-h_t = \sigma \left( W_h \cdot h_{t-1} + W_x \cdot x_t + b \right)
-\]
 
-\[
-y_t = \phi \left( W_y \cdot h_t + c \right)
-\]
+![RNN Architecture](https://github.com/BalajiKudumu/Recurent-Neural-Network-Sentimental_Analysis/blob/main/RNN.png?raw=true)
 
 Where:
 - \( h_t \): Hidden state at time \( t \)  
