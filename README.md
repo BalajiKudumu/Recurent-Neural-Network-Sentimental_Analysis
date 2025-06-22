@@ -9,7 +9,12 @@ This repository implements a **Recurrent Neural Network (RNN)** — a type of ne
 A **Recurrent Neural Network (RNN)** is a neural architecture where connections between nodes form a directed graph along a temporal sequence. This allows the model to exhibit **temporal dynamic behavior**, processing input sequences one element at a time while maintaining a hidden state that captures information about previous elements.  
 
 ---
+## Key Characteristics
+- Sequence-aware — RNNs can model time series, text, speech, or any data where order matters.
+- Shared weights — The same weights are applied at each time step, which makes the model efficient.
+- Memory of past inputs — Hidden state captures prior information as the sequence is processed
 
+---
 ## RNN Architecture  
 
 An RNN processes sequences by iterating through the elements and updating its hidden state:  
