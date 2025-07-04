@@ -47,3 +47,14 @@ Where:
 ## Solution: Use advanced RNN variants like:
 - LSTM (Long Short-Term Memory)
 - GRU (Gated Recurrent Unit)
+
+## 📬 Contact
+
+Maintained by **Balaji Kudumu**  
+If you use this project in your research, please give appropriate credit.
+
+---
+
+## 📄 License
+
+MIT License - see `LICENSE` file for details.
