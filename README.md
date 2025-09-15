@@ -48,7 +48,7 @@ Where:
 - LSTM (Long Short-Term Memory)
 - GRU (Gated Recurrent Unit)
 
-## 📬 Contact
+## Contact
 
 Maintained by **Balaji Kudumu**  
 If you use this project in your research, please give appropriate credit.
